@@ -1,0 +1,3 @@
+# tous les fichiers présents ici sont ignorés par git
+node_modules/
+video_formation1.mkv

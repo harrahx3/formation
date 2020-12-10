@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>page de formation</title>
+  </head>
+  <body>
+    Hello world!
+
+    <form  action="/formulaire" method="post">
+      <input type="text" name="username" value="">
+      <button type="submit" name="button">Envoyer</button>
+    </form>
+
+    <%= surnom %>
+
+    <% if (age>=18) { %>
+      Tu es majeur
+    <% } else { %>
+      Tu es mineur
+    <% } %>
+
+    <% assos.forEach(function (asso, i){ %>
+      <p><%=asso%></p>
+    <% }) %>
+
+    <%- "<img src='images/logo_eclair.png' alt='logo dÉclair' width='200px'>" %>
+    <%= assos[0] %>
+    <img src="images/logo_eclair.png" alt="logo d'Éclair" width="200px">
+
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js">
+  </script>
+
+ <script type="text/javascript">
+   $.post("/formulaire", {username: "Hyacinthe", password: "mot de passe"});
+
+ </script>
+
+
+    </body>
+
+</html>

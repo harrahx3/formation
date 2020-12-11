@@ -15,7 +15,7 @@
     * `$ npm install` (pour installer toutes les dépendances définies dans package.json)
     * `$ npm install express ejs` (pour installer express et ejs, idem avec n'importe quel package ( voir [npmjs.com](https://npmjs.com))
 - Lancer le serveur nodejs en local: `$ node apps.js`, puis aller à l'adresse [localhost:3000](http://localhost:3000) dans le navigateur (localhost est l'adresse ip locale de votre machine (127.0.0.1) et 3000 est le port utilisé, en effet le serveur nodejs écoute sur le port 3000 de votre propre ordinateur)
-Remarque: il est possible d'accéder à ce site depuis un autre appareil connecté sur le même réseau local (WIFI), par exemple sur votre mobile : trouvez l'adresse ip de l'ordinateur jouant le rôle de serveur avec `ip a` (probablement de la forme 192.168.1.n, avec n entre 2 et 254), puis allez à l'adresse 192.168.1.n:3000 dans le navigateur du client.
+Remarque: il est possible d'accéder à ce site depuis un autre appareil connecté sur le même réseau local (WIFI), par exemple sur votre smartphone: trouvez l'adresse ip de l'ordinateur jouant le rôle de serveur avec `ip a` (probablement de la forme 192.168.1.n, avec n entre 2 et 254), puis allez à l'adresse 192.168.1.n:3000 dans le navigateur du client.
 
 
 
